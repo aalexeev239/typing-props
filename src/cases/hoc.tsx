@@ -24,6 +24,7 @@ const Wrapper: FC<ExtendedProps> = ({ extend, ...otherProps }) => (
 // ======
 // 2. hoc
 // ======
+// @link https://medium.com/@jrwebdev/react-higher-order-component-patterns-in-typescript-42278f7590fb
 
 type AdditionalProps = {
   additional: string;
